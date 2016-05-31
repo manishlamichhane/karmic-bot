@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# This file is public domain in the USA and all free countries.
+# Elsewhere, consider it to be WTFPLv2. (wtfpl.net/txt/copying)
+
+
+echo "Enter the location:"
+read answer
+answer=${answer/ /+}
+
+export html_response="<html><body><img src='https://maps.googleapis.com/maps/api/staticmap?center=New+York&zoom=13&size=600x300&maptype=roadmap'></body></html>") 
+
+exit

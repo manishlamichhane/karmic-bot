@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #bashbot
 A Telegram bot written in bash.
 
@@ -240,3 +241,7 @@ bash bashbot.sh broadcast "Hey! I just wanted to let you know that the bot's bee
 That's it!
 
 If you feel that there's something missing or if you found a bug, feel free to submit a pull request!
+=======
+# karmic-messenger
+Telegram Bot implementation in local language with xinetd server integration and gdialog gui
+>>>>>>> 983dac677f7d6f2c45b8d6c9deaa0bd6b48170d5

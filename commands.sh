@@ -1,4 +1,6 @@
 #!/bin/bash
+# sending the message to the bot from user
+
 # Edit your commands in this file.
 
 # This file is public domain in the USA and all free countries.
@@ -47,6 +49,7 @@ else
 			fi
 		fi
 	fi
+
 	case $MESSAGE in
 		'/question')
 			startproc "./question"
@@ -67,6 +70,21 @@ Written by Drew (@topkecleon) and Daniil Gentili (@danogentili).
 http://github.com/topkecleon/telegram-bot-bash
 "
 			;;
+
+		'/map')	
+			
+			startproc "./map"
+			send_html "${USER[ID]}" "$html_response"
+
+			;;
+
+		'/horoscope')	
+			
+			startproc "./horoscope"
+			send_html "${USER[ID]}" "$html_response"
+
+			;;			
+
 		'/cancel')
 			if tmux ls | grep -q $copname; then killproc && send_message "${USER[ID]}" "Command canceled.";else send_message "${USER[ID]}" "No command is currently running.";fi
 			;;
