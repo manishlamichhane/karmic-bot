@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #bashbot
 A Telegram bot written in bash.
 
