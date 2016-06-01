@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+echo "Enter your horscope: "
+read sign
+
+
+DIALOG=gdialog || DIALOG=dialog
+
+choice=$($DIALOG --title "Selection for $sign" --menu "Command" 15 50 8 \
+	  "$(cat ./data/Aries)" "Aries" \
+	  "$(cat ./data/Taurus)" "Taurus" \
+	  "$(cat ./data/Virgo)" "Virgo" \
+	  "$(cat ./data/Gemini)" "Gemini" \
+	  "$(cat ./data/Leo)" "Leo" \
+	  "$(cat ./data/Libra)" "Libra" \
+
+	    3>&2 2>&1 1>&3)|| end
+
+echo "$choice"
+
+exit
