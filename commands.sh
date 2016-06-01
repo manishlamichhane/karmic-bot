@@ -71,12 +71,12 @@ http://github.com/topkecleon/telegram-bot-bash
 "
 			;;
 
-		'/map')	
+		# '/map')	
 			
-			startproc "./map"
-			send_html "${USER[ID]}" "$html_response"
+		# 	startproc "./map"
+		# 	send_html "${USER[ID]}" "$html_response"
 
-			;;
+		# 	;;
 
 		'/horoscope')	
 			
@@ -90,11 +90,11 @@ http://github.com/topkecleon/telegram-bot-bash
 
 			;;
 
-		'/meme')	
+		# '/meme')	
 			
-			startproc "./nepalloadshedding"
+		# 	startproc "./meme"
 
-			;;							
+		# 	;;							
 
 		'/cancel')
 			if tmux ls | grep -q $copname; then killproc && send_message "${USER[ID]}" "Command canceled.";else send_message "${USER[ID]}" "No command is currently running.";fi

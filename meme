@@ -1,8 +1,0 @@
-#!/bin/bash
-
-
-echo "Please upload an image"
-
-echo ${URLS[PHOTO]}
-
-exit
