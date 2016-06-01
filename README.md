@@ -2,8 +2,13 @@
 
 Karmic messenger is a telegram-bot based messenger with following functionalities:
 
-1. Horoscope - Implements gDialog GUI where horoscope can be added manually from the bot's end
-2. Nepal Loadshedding Schedule - Returns the Load shedding schedule for a particular day based on users reply
+1. Horoscope - 
+  
+    Implements gDialog GUI where horoscope can be added manually from the bot's end
+
+2. Nepal Loadshedding Schedule - 
+  
+    Returns the Load shedding schedule for a particular group based on users reply. It uses a publicly available API to fetch the specific schedule for a group based on user input
 
 The GUI is localised to Nepalese and the run using XINETD Server.
 
