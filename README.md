@@ -14,6 +14,17 @@ Karmic messenger is a telegram-bot based messenger with following functionalitie
 
 # How to use:
 
+
+  Clone the repo. Add your bot token to a new file called token in the same directory (without white spaces)
+
+  Following command options are available:
+
+  ./bashbot.sh start - It will start the bot
+  ./bashbot.sh kill  - It will kill the running bot.
+
+
+
+
 You have to open the telegram application, find this bot by the bot name: @karmic_bot. Following are the available command lists. 
 
 /horoscope: 
