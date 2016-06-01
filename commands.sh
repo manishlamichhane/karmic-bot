@@ -84,11 +84,17 @@ http://github.com/topkecleon/telegram-bot-bash
 
 			;;	
 
-		'/nepalloadshedding')	
+		'/schedule')	
 			
 			startproc "./nepalloadshedding"
 
-			;;						
+			;;
+
+		'/meme')	
+			
+			startproc "./nepalloadshedding"
+
+			;;							
 
 		'/cancel')
 			if tmux ls | grep -q $copname; then killproc && send_message "${USER[ID]}" "Command canceled.";else send_message "${USER[ID]}" "No command is currently running.";fi

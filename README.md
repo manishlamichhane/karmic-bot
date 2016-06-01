@@ -20,9 +20,9 @@ You have to open the telegram application, find this bot by the bot name: @karmi
 
           User is asked to send their horoscope. On the bot part, a gDialog menu box will load all the available horoscope in server files (./data/<horoscope>). This part is to demonstarte the use of GUI
 
-/nepaloadshedding:
+/schedule:
 
-          User is asked to enter the group (1 - 7). 
+          User is asked to enter the group (1 - 7). Using the user input, an #api call is made to a public api hosting the loadshedding schedule.  
 
 The GUI is localised to Nepalese and the run using XINETD Server.
 
