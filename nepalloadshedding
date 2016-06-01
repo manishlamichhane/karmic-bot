@@ -3,7 +3,7 @@
 
 today="$(date +'%A')"
 
-echo "Enter your group: "
+echo "Enter your group(1-7): "
 read loadsheddinggroup
 
 schedule=$(curl 'https://acpmasquerade-nepal-loadshedding-schedule-by-sparrow-sms.p.mashape.com/schedule.php?format=format%3Djson&group='$loadsheddinggroup \
