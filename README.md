@@ -25,7 +25,7 @@ Karmic messenger is a telegram-bot based messenger with following functionalitie
 
 
 
-You have to open the telegram application, find this bot by the bot name: @karmic_bot. Following are the available command lists. 
+You have to open the telegram application, go to your bot.And, Following are the available command lists. 
 
 /horoscope: 
 
