@@ -1,3 +1,5 @@
 *~
 count
 token
+*.pot
+*.po
